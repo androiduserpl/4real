@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Formularz szkoleniowy</h1>
+    </header>
+
+    <section>
+        <p>Za pomocą tego formularza można wysyłać swoje dane kontaktowe na adres androiduserpl</p>
+        <form action="https://formspree.io/your@email.com" method="POST"> <br>
+            <input type="text" name="imie"><br>
+            <input type="text" name="nazwisko"><br>
+            <input type="number" name="telefon"><br>
+            <input type="email" name="_replyto"><br>
+            <select name="select" id="">
+                <option value="value1">Kraków</option>
+                <option value="value2" selected>Warszawa</option>
+                <option value="value3">Gdańsk</option>
+            </select>
+            <div class="radio">
+                <label for="kobieta">Kobietka </label>
+                <input type="radio" name="gender" value="kobieta" id="kobieta"> <br>
+                <label for="meszczyzna">Męszczyzna </label>
+                <input type="radio" name="gender" value="meszczyzna" id="meszczyzna"> <br>
+                <label for="inna">Inna </label>
+                <input type="radio" name="gender" value="inna" id="inna"> <br>
+            </div>
+            <textarea name="info" id=""></textarea><br>
+            <input type="checkbox" id="zgoda">
+            <label for="zgoda">Wyrażam zgode na przetwarzanie danych osobowych</label>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+</body>
+
+</html>

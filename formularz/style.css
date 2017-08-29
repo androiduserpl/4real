@@ -1,0 +1,87 @@
+* {
+    margin: auto 0;
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+section p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+section form {
+    background-color: #3A4B7F;
+    padding: 10px;
+}
+
+section form select {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 270px;
+    background-color: #7497FF;
+    border: 0px;
+    appearance: none;
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+}
+
+option {
+    padding: 10px;
+}
+
+section form select option:not(:checked) {
+    background-color: #98b1fc;
+}
+
+input section form input,
+section form input {
+    padding: 10px;
+    width: 250px;
+    background-color: #7497FF;
+    border: 0px;
+}
+.radio, #zgoda {
+    width: 250px;
+    background-color: #7497FF;
+    margin-bottom: 20px;
+    padding: 10px 10px 0 10px;
+}
+
+input[type=radio] {
+    display: inline-block;
+    color: aliceblue;
+    width: auto;
+    visibility: hidden;
+}
+
+
+section form input:nth-child(n) {
+    margin-bottom: 20px;
+}
+
+section form textarea {
+    height: 10em;
+    width: 250px;
+    padding: 10px;
+    background-color: #7497FF;
+    border: 0px;
+    margin-bottom: 15px;
+    resize: none;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
