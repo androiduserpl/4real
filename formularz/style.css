@@ -2,9 +2,15 @@
     margin: auto 0;
 }
 
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Roboto')
+}
+
 body {
     max-width: 800px;
     margin: auto;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -84,4 +90,28 @@ input[type=number]::-webkit-outer-spin-button,
 input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+
+input#zgoda {
+    width: 20px;
+    height: 3em;
+    box-shadow: none;
+}
+
+label[for=zgoda] {
+    max-width: 250px;
+    overflow: auto;
+    display: inline-block;
+}
+
+input, select, textarea, .radio {
+    box-shadow: 1px 1px 1px #888;
+}
+
+input[type=submit]:active {
+    transition: .3s;
+    background-color: #6476ad;
+    box-shadow: 2px 2px 1px #888;
+    color: #c9ccce;
+    font-size: 110%;
 }

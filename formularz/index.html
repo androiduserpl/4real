@@ -15,10 +15,10 @@
     <section>
         <p>Za pomocą tego formularza można wysyłać swoje dane kontaktowe na adres androiduserpl</p>
         <form action="https://formspree.io/your@email.com" method="POST"> <br>
-            <input type="text" name="imie"><br>
-            <input type="text" name="nazwisko"><br>
-            <input type="number" name="telefon"><br>
-            <input type="email" name="_replyto"><br>
+            <input type="text" name="imie" placeholder="imie"><br>
+            <input type="text" name="nazwisko" placeholder="nazwisko" ><br>
+            <input type="number" name="telefon" placeholder="telefon"><br>
+            <input type="email" name="_replyto" placeholder="e-mail"><br>
             <select name="select" id="">
                 <option value="value1">Kraków</option>
                 <option value="value2" selected>Warszawa</option>
@@ -32,9 +32,9 @@
                 <label for="inna">Inna </label>
                 <input type="radio" name="gender" value="inna" id="inna"> <br>
             </div>
-            <textarea name="info" id=""></textarea><br>
+            <textarea name="info" id="" placeholder="twoja wiadomość..."></textarea><br>
             <input type="checkbox" id="zgoda">
-            <label for="zgoda">Wyrażam zgode na przetwarzanie danych osobowych</label>
+            <label for="zgoda">Wyrażam zgode na przetwarzanie danych osobowych</label> <br>
             <input type="submit" value="Send">
         </form>
     </section>
